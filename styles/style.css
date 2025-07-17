@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: #E9E9E9;
+    --cor2: #FFFFFF;
+}
+
+header {
+    background-color: var(--cor2);
+    width: 100%;
+}
+
+header img {
+    width: 180px;
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+main {
+    background-color: var(--cor2);
+    margin-top: 30px;
+}
